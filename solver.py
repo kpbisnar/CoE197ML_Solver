@@ -19,7 +19,7 @@ y_trn = Tensor(y_train.values)
 x_tst = Tensor(x_test.values) 
 y_tst = Tensor(y_test.values)
 
-#Function to plot datas
+#Function to plot datas (from https://github.com/izzajalandoni/Deep-Learning-Helper/blob/main/Machine_Learning/Optimization/GradientDescent.ipynb)
 def plotter(coords, label=['lab']):
     for points ,l in zip(coords, label):
         x, y = points
